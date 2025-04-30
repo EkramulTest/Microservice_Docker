@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "+WjIpIZdYHhYuwwv7HboPRVPD36oa3zESu1oaNwjiF8=",
+  "Source": "ExternalService",
+  "BasePath": "_content/ExternalService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

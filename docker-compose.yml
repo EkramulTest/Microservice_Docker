@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  externalservice:
+    build:
+      context: .
+      dockerfile: ExternalService/Dockerfile
+    ports:
+      - "3000:2000"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - demonet
+
+  apigateway:
+    build:
+      context: .
+      dockerfile: ApiGateway/Dockerfile
+    ports:
+      - "4000:1000"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - SERVICE_MODE=Docker
+    depends_on:
+      - externalservice
+    networks:
+      - demonet
+
+networks:
+  demonet:
+    driver: bridge

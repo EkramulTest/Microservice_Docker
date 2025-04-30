@@ -1,0 +1,30 @@
+# Binaries and build outputs
+bin/
+obj/
+publish/
+
+# IDE and tool files
+.vs/
+.idea/
+*.user
+*.suo
+*.lock.json
+
+# Docker files (optional)
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Local development files
+appsettings.Development.json
+
+# Git files
+.git/
+.gitignore
+
+# NuGet packages
+.nuget/
+packages/
+
+# Node.js (if applicable)
+node_modules/
