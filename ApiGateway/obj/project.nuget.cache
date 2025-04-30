@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JWeRddo+YtY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SISAEkramulHaque\\OneDrive - SISA Information Security Pvt. Ltd\\Desktop\\GitHubCode\\Microservice_Docker\\ApiGateway\\ApiGateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SISAEkramulHaque\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.3\\microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512",
+    "C:\\Users\\SISAEkramulHaque\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
